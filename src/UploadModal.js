@@ -276,9 +276,9 @@ class UploadModal extends React.Component {
         <div>
           <div>
             <span style={style.insertTitle}>插入链接</span>
-            <Input style={{width: '300px'}} type='text' value={currentSource} onChange={this.updateCurrentSource} />
+            <Input style={{width: '390px'}} type='text' value={currentSource} onChange={this.updateCurrentSource} />
             <Button onClick={this.addSource}>添加</Button>
-            <Upload onChange={this.upload} />
+            <Upload onChange={this.upload} style="display: none !important" />
           </div>
           <div>
             <span style={{...style.warnInfo, display: progress && progress !== -1 ? 'block' : 'none'}}>
