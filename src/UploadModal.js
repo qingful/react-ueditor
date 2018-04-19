@@ -50,8 +50,8 @@ class UploadModal extends React.Component {
   state = {
     sources: [],
     currentSource: '',
-    width: 400,
-    height: 400,
+    width: '',
+    height: '',
     controls: 'true',
     autoplay: 'false',
     muted: 'false',
